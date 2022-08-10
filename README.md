@@ -21,3 +21,13 @@ I wanted this simple landing page to have 3 sections and with that I created 3 c
 -HeroSection.js
 -ServicesSection.js
 -FooterSection.js
+
+## Export Default and Import
+
+I wanted HeroSection.js, SercicesSection.js, and FooterSection to be in the same level of the component tree but one level deep inside App.js.
+
+To accomplish that, I `export default` each component, and then `import` them in App.js.
+
+**Note to self** I wanted to write this note to self because I was taking some time to figure out why my code wasn't working this point.
+
+When `export default FooterSection();` remember that you do not need to call the function; removing `()` made it work!.
