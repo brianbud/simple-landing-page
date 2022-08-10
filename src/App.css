@@ -1,12 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
   margin: 0;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav p {
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 .hero-section {
   background-color: red;
   height: 300px;
+  color: white;
 }
