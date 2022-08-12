@@ -38,6 +38,8 @@ One thing I had to get used to is that React uses `className` over class attribu
 
 The Hero section consist of a nav with display: flex, a background image where I had to Google to learn how to dim the background image using `linear-gradent` value, and a hero title that is centered.
 
+![Hero section of landing page with navigation and hero title](./src/imgs/hero-section-screenshot.png)
+
 ## Services Section
 
 ### Using map() function in React
