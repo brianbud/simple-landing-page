@@ -35,3 +35,58 @@ When `export default FooterSection();` remember that you do not need to call the
 ## Hero Section
 
 One thing I had to get used to is that React uses `className` over class attribute.
+
+The Hero section consist of a nav with display: flex, a background image where I had to Google to learn how to dim the background image using `linear-gradent` value, and a hero title that is centered.
+
+## Services Section
+
+### Using map() function in React
+
+Something new I learnt is that I could put the variable's date in objects and .map() through them.
+
+`const SERVICE_ BLOCK_DATA = [` I learnt that we use the CONSTANT syntax when not getting from a server but when it's in our code.
+
+The SERVICE_BLOCK_DATA array will have objects with 2 properties, imgURL source and title,
+
+```
+const SERVICE_BLOCK_DATA = [
+  {
+    imgURL: 'https://assets.codepen.io/6060109/agency-service-1.png',
+    title: 'Web Design',
+  },
+  {
+    imgURL: 'https://assets.codepen.io/6060109/agency-service-2.png',
+    title: 'ecommerce',
+  },
+  {
+    imgURL: 'https://assets.codepen.io/6060109/agency-service-3.png',
+    title: 'automation',
+  },
+];
+```
+
+In my JSX, I could write JS code inside `{}` and use the map function `SERVICE_BLOCK_DATA.map()` and return JSX.
+
+```<img src={block.imgURL}></img>
+              <p>{block.title}</p>
+```
+
+Now, for each item in the object array, we create a JSX block that replaces the `<img src>` and `<p>` variables.
+
+```
+ <div class='services-section'>
+      <h2>Our Services</h2>
+      <div className='services-container'>
+        {SERVICE_BLOCK_DATA.map((block) => {
+          return (
+            <div className='service-block'>
+              <img src={block.imgURL}></img>
+              <p>{block.title}</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+```
+
+![services section of simple landing page with 3 blocks for web design, ecommerce, and automation](./src/imgs/services-section.png)

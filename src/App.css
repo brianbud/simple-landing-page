@@ -4,6 +4,8 @@ body {
   margin: 0;
 }
 
+/* HERO SECTION */
+
 nav {
   display: flex;
   justify-content: center;
@@ -37,5 +39,39 @@ nav p {
   left: 50%;
   transform:translate(-50%);
   top: 40%
+}
+
+/* SERVICES SECTION */
+
+.services-section {
+  height: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.services-section > h2 {
+  color:rgb(117, 0, 140);
+  margin: 0 0 20px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.service-block {
+  width: 30%;
+}
+
+.service-block img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.service-block p {
+  margin: 0;
+  text-align: left;
+  font-size: 15px;
 }
 
