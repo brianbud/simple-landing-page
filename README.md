@@ -4,7 +4,7 @@
 
 The goal is to get more practice with JSX and the Component tree.
 
-![Agency landing Page](./src/imgs/landing-page-wholepage-screenshot.png)
+![Agency landing Page](./src/imgs/landing-page-screenshot.png)
 
 ## How It's Made:
 
