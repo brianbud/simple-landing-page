@@ -47,6 +47,7 @@ nav p {
   height: 400px;
   padding: 50px;
   box-sizing: border-box;
+  margin-bottom: 50px;
 }
 
 .services-section > h2 {
@@ -75,3 +76,15 @@ nav p {
   font-size: 15px;
 }
 
+/* FOOTER SECTION */
+
+.footer-section {
+  height: 300px;
+  background-color: rgb(2, 21, 107);
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
+.footer-section h2 {
+  color: white;
+}
