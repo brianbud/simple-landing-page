@@ -110,3 +110,5 @@ In the future, I would have prefered to start making websites "Mobile First", ne
 The 3 divs in the services section were changed with `flex-wrap: wrap`
 
 ![service section mobile view](./src/imgs/service-section-mobile.png)
+
+## Lessons Learned:
