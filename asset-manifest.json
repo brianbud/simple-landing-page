@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/simple-landing-page/static/css/main.9397aa8d.css",
+    "main.js": "/simple-landing-page/static/js/main.837bc424.js",
+    "static/media/agency-hero-img.jpg": "/simple-landing-page/static/media/agency-hero-img.618c5d92474ec23326b5.jpg",
+    "index.html": "/simple-landing-page/index.html",
+    "main.9397aa8d.css.map": "/simple-landing-page/static/css/main.9397aa8d.css.map",
+    "main.837bc424.js.map": "/simple-landing-page/static/js/main.837bc424.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9397aa8d.css",
+    "static/js/main.837bc424.js"
+  ]
+}
