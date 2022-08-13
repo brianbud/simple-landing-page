@@ -1,8 +1,9 @@
-# Simple Landing Page
+# Simple Agency Landing Page
 
-### My first React Project
+Agency Landing page made with React.
+This is my first Project to learn more about React, using JSX, and using components.
 
-The goal is to get more practice with JSX and the Component tree.
+**Link to project** https://brianbud.github.io/simple-landing-page/
 
 ![Agency landing Page](./src/imgs/landing-page-screenshot.png)
 
@@ -111,4 +112,39 @@ The 3 divs in the services section were changed with `flex-wrap: wrap`
 
 ![service section mobile view](./src/imgs/service-section-mobile.png)
 
+## Deploying app to Github pages
+
+When deploying this React website to Github pages, it shows the content based on the `README.md`.
+
+I learned that the reason why README.md is being rendered is because I have not generated the browser-friendly static assets(HTML,CSS, JS) needed for the app to run in the browser.
+
+After some research, these are the steps I used to successfully depoy it to Github pages. I am documenting this process for future reference when I want to deploy a React app again.
+
+These are the following steps I used:
+
+In the terminal `npm install gh-pages --save-dev`. This adds "gh-pages" library and it will be seen in `package.json` file under "devDependencies".
+
+In the top of the package.json file I add `"homepage" : "https://{your_github_username}.github.io/{app-name}"`
+
+In the scripts section add these 2 code:
+
+```
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+```
+
+In the terminal `npm run build`
+
+In Github > repo settings > pages > and select gh-pages branch.
+
 ## Lessons Learned:
+
+I learnt a lot in the project:
+
+- Understanding the Component Tree
+- Practice writing JSX
+- Using Create-React-App
+- Importing and Exporting components
+- Using .map() in React
+
+Thank you for reading this!
