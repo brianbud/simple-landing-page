@@ -4,6 +4,8 @@
 
 The goal is to get more practice with JSX and the Component tree.
 
+![Agency landing Page](./src/imgs/landing-page-wholepage-screenshot.png)
+
 ## How It's Made:
 
 **Tech used:**
