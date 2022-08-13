@@ -92,3 +92,9 @@ Now, for each item in the object array, we create a JSX block that replaces the 
 ```
 
 ![services section of simple landing page with 3 blocks for web design, ecommerce, and automation](./src/imgs/services-section.png)
+
+## Footer Section
+
+Since most of it now is working on CSS, I had more practice and learnt something new using CSS attribute selector such as `input[type='email']` as well as connecting it with a psedeudo element at the same time `input[type='email']::placeholder`.
+
+![footer section mailing list](./src/imgs/footer-section.png)

@@ -88,3 +88,28 @@ nav p {
 .footer-section h2 {
   color: white;
 }
+
+input[type='email'] {
+  color:white;
+  border: none;
+  border-style: none;
+  background: none;
+  border-bottom: 1px solid white;
+  width: 30%;
+  padding: 5px 10px;
+  display: block;
+  margin: 20px auto;
+  outline: none;
+}
+
+input[type='email']::placeholder {
+text-align: center;
+color: rgb(159, 159, 159);
+}
+
+input[type='submit'] {
+
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  }
