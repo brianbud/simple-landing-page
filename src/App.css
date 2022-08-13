@@ -44,10 +44,9 @@ nav p {
 /* SERVICES SECTION */
 
 .services-section {
-  height: 400px;
   padding: 50px;
   box-sizing: border-box;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .services-section > h2 {
