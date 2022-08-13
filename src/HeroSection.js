@@ -3,7 +3,7 @@ function HeroSection() {
     <div className='hero-section'>
       <nav>
         <p>Home</p>
-        <p>Our Services</p>
+        <p>Services</p>
         <p>Subscribe</p>
       </nav>
       <h2>we Do Websites Right</h2>
