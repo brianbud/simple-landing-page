@@ -112,3 +112,20 @@ input[type='submit'] {
   padding: 10px 20px;
   border-radius: 5px;
   }
+
+  @media only screen and (max-width: 400px) {
+    .services-section {
+      height: auto;
+    }
+
+    .services-section div {
+      width: 90%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+
+    .service-block {
+      width: 80%;
+      padding: 20px 0;
+    }
+  }

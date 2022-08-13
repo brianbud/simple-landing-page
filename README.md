@@ -8,7 +8,7 @@ The goal is to get more practice with JSX and the Component tree.
 
 ## How It's Made:
 
-**Tech used:**
+**Tech used:** REACT
 
 ## Initial Set up
 
@@ -100,3 +100,13 @@ Now, for each item in the object array, we create a JSX block that replaces the 
 Since most of it now is working on CSS, I had more practice and learnt something new using CSS attribute selector such as `input[type='email']` as well as connecting it with a psedeudo element at the same time `input[type='email']::placeholder`.
 
 ![footer section mailing list](./src/imgs/footer-section.png)
+
+## Mobile Responsive
+
+In the future, I would have prefered to start making websites "Mobile First", nevertheless, this is how I made it Mobile Responsive using media queries.
+
+`@media only screen and (max-width: 400px) {...}`
+
+The 3 divs in the services section were changed with `flex-wrap: wrap`
+
+![service section mobile view](./src/imgs/service-section-mobile.png)
