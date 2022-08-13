@@ -34,7 +34,6 @@ nav p {
 }
 
 .hero-section > h2 {
-  /* background-color: rgb(0, 0, 0); */
   position: absolute;
   left: 50%;
   transform:translate(-50%);
@@ -132,5 +131,4 @@ input[type='submit'] {
     input[type='email'] {
       width: 80%;
     }
-
   }
